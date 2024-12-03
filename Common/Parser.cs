@@ -26,7 +26,6 @@ namespace Day1
 
         private ItemObject ParseInput()
         {
-            List<Item> items = new List<Item>();
             List<int> items1 = new List<int>();
             List<int> items2 = new List<int>();
             using (StreamReader file = new StreamReader(File.OpenRead(_path)))
