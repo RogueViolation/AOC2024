@@ -4,12 +4,14 @@
     {
         static void Main(string[] args)
         {
-            int[] arr1 = [3,4,2,1,3,3]; int[] arr2 = [4,3,5,3,9,3]; int[] diff = new int[arr1.Length >= arr2.Length ? arr2.Length : arr1.Length];
+            int[] arr1 = [3,4,2,1,3,3]; int[] arr2 = [4,3,5,3,9,3];
             arr1 = [.. arr1.OrderDescending()];
             arr2 = [.. arr2.OrderDescending()];
-            for (int i = 0; i < (arr1.Length >= arr2.Length ? arr2.Length : arr1.Length); i++)
-            {
-                diff[i] = Math.Abs(arr1[i] - arr2[i]);
+            var parser = new Parser("input.txt");
+            var input = parser.ParseInput();
+            var diff = new List<int>();
+            foreach (var item in input) {
+                diff.Add(Math.Abs(item.first - item.second));
             }
             Console.WriteLine(diff.Sum());
         }

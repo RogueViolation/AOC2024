@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOC2024", "AOC2024\AOC2024.csproj", "{88D5C0BD-F119-41FF-BEC1-8CD7277B0F7E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1", "Day1\Day1.csproj", "{1E054C57-04CE-4FBB-B592-3E4503983549}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{88D5C0BD-F119-41FF-BEC1-8CD7277B0F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88D5C0BD-F119-41FF-BEC1-8CD7277B0F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88D5C0BD-F119-41FF-BEC1-8CD7277B0F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88D5C0BD-F119-41FF-BEC1-8CD7277B0F7E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1E054C57-04CE-4FBB-B592-3E4503983549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1E054C57-04CE-4FBB-B592-3E4503983549}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E054C57-04CE-4FBB-B592-3E4503983549}.Release|Any CPU.ActiveCfg = Release|Any CPU
