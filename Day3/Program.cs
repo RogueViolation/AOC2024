@@ -6,6 +6,7 @@
         {
             var parser = new CorruptParser("input.txt");
             Console.WriteLine(parser.DoParse().Sum());
+            Console.WriteLine(parser.DoParse2().Sum());
         }
     }
 }
