@@ -9,17 +9,12 @@ namespace Day1
 {
     internal class Parser
     {
-        private readonly string _path;
-        public Parser(string path)
-        {
-            _path = path;
-        }
-        public List<Item> ParseInput()
+        public static List<Item> ParseInput(string path)
         {
             List<Item> items = new List<Item>();
             List<int> items1 = new List<int>();
             List<int> items2 = new List<int>();
-            using (StreamReader file = new StreamReader(File.OpenRead(_path)))
+            using (StreamReader file = new StreamReader(File.OpenRead(path)))
             {
                 string ln;
                 while ((ln = file.ReadLine()) != null)
