@@ -23,7 +23,6 @@ namespace Day1
                     items1.Add(Int32.Parse(split[0]));
                     items2.Add(Int32.Parse(split[1]));
                 }
-                file.Close();
                 items = items1.Order().Zip(items2.Order(), (x, y) => new Item { first = x, second = y }).ToList();
             }
             return items;
